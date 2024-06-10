@@ -500,8 +500,7 @@ html, body{
 
 
 .hero-moving-text-holder{
-    width: 100%;
-    overflow: hidden;
+    max-width: 100%;
     margin-top: -140px;
     transform: rotate(0);
     z-index: 1;
