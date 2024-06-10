@@ -1,0 +1,125 @@
+@media screen and (max-width: 1200px) {
+    .table-cntnt{
+        font: 600 42px var(--fontFamily);
+        letter-spacing: -3px;
+    }
+
+    .table-cntnt img{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .table-sides-contain{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .table-img-box{
+        width: 40%;
+        height: 520px;
+    }
+
+    .table-content-box{
+        width: 60%;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .table-head-cntnt .table-head-span{
+        font: 600 14px var(--fontFamily);
+    }
+    
+    .table-head-cntnt .sticker-img1{
+        width: 90px;
+        left: 100px;
+        top: 36%;
+    }
+    .table-head-cntnt .sticker-img2{
+        width: 50px;
+        left: 260px;
+        top: 27%;
+    }
+    
+    .table-head-cntnt .table-head{
+        font: 180px "humane-bold";
+        line-height: 90.7%;
+    }
+
+    .table-cntnt{
+        font: 600 42px var(--fontFamily);
+        letter-spacing: -3px;
+    }
+
+    .table-num{
+        width: 70px;
+    }
+    
+    .table-title{
+        width: 150px;
+    }
+
+    .table-cntnt img{
+        width: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .table-img-box{
+        display: none;
+    }
+
+    .table-content-box{
+        width: 100%;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cntnt-table-contain{
+        margin-top: 50px;
+        padding: 40px 0;
+    }
+
+    .table-head-cntnt{
+        flex-direction: column;
+    }
+
+    .table-head-cntnt .sticker-img1{
+        width: 80px;
+        left: 30px;
+        top: 40%;
+    }
+    .table-head-cntnt .sticker-img2{
+        width: 40px;
+        left: 160px;
+        top: 35%;
+    }
+    
+    .table-head-cntnt .table-head{
+        font: 140px "humane-bold";
+        line-height: 90.7%;
+    }
+
+    .table-cntnt{
+        font: 600 32px var(--fontFamily);
+        letter-spacing: -3px;
+    }
+
+    .table-num{
+        width: 50px;
+    }
+    
+    .table-title{
+        width: 120px;
+    }
+
+    .table-cntnt img{
+        width: 35%;
+        opacity: 0.3;
+    }
+}

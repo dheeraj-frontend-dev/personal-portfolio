@@ -1,0 +1,145 @@
+@media screen and (max-width: 1200px) {
+    .about-content-contain .about-info{
+        font: 600 42px var(--fontFamily);
+        line-height: 46px;
+    }
+
+
+    /* ------ Tech Skills ----------- */
+
+    .techSkill-grp{
+        font: 600 16px var(--fontFamily);
+        letter-spacing: -1px;
+    
+        width: 460px;
+        height: auto;
+    
+        margin: 60px 0 0 40px;
+    }
+
+    .techSkill-img{
+        width: 260px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-content-contain .about-info{
+        font: 600 32px var(--fontFamily);
+        line-height: 36px;
+    }
+
+    
+}
+
+@media screen and (max-width: 900px){
+    .techSkill-grp{
+        font: 600 16px var(--fontFamily);
+        letter-spacing: -1px;
+    
+        width: 360px;
+        height: auto;
+    
+        margin: 40px 0 0 -30px;
+    }
+    
+    .techSkill-head-contain{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        margin-top: -40px;
+        z-index: 1;
+    
+        position: relative;
+    }
+    
+    .techSkill-head-contain .techSkill-head{
+        font: 500 70px var(--fontFamily);
+        letter-spacing: -7px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-sec-contain{
+        padding: 50px 0;
+    }
+
+    .about-content-contain .about-info{
+        font: 600 32px var(--fontFamily);
+        line-height: 36px;
+    }
+
+    .about-info .about-info-span{
+        padding-right: 100px;
+    }
+
+    .techSkill-cntnt-contain{
+        flex-direction: column-reverse;
+    }
+
+    .techSkill-img{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .techSkill-img img{
+        width: 220px;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .techSkill-cntnt{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .techSkill-grp{
+        font: 600 16px var(--fontFamily);
+        letter-spacing: -1px;
+    
+        width: 100%;
+        height: auto;
+    
+        margin: 20px 0 0 0px;
+    }
+
+    .techSkill-head-contain{
+        margin-top: 0px;
+        z-index: 1;
+    
+        position: relative;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .about-info .about-info-span{
+        padding-right: 120px;
+    }
+
+    .about-content-contain .about-info{
+        font: 600 28px var(--fontFamily);
+        line-height: 30px;
+        letter-spacing: -1px;
+    }
+
+    .techSkill-head-contain{
+        margin-top: 20px;
+    }
+
+    .techSkill-head-contain .techSkill-head{
+        font: 500 40px var(--fontFamily);
+        letter-spacing: -4px;
+        position: relative;
+    }
+
+    .techSkill-cntnt{
+        margin-top: 20px;
+    }
+}

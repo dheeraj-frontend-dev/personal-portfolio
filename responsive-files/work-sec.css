@@ -1,0 +1,149 @@
+@media screen and (max-width: 1200px) {
+    .project-cntnt-grp .project-title{
+        font: 120px "humane-bold";
+        line-height: 75%;
+    }
+    .project-img-box{
+        width: 600px;
+        height: auto;
+    }
+
+    .project-view-box{
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .project-head{
+        font: 180px "humane-medium";
+        line-height: 90.7%;
+        color: var(--colorDark);
+    }
+    
+    .project-sec-head .sticker-img1{
+        width: 90px;
+        left: 0px;
+        top: 40%;
+    }
+    
+    .project-sec-head .sticker-img2{
+        width: 60px;
+        left: 170px;
+        bottom: 5%;
+    }
+
+    .project-type-date, 
+    .project-view-box a{
+        font: 600 12px var(--fontFamily);
+    }
+
+    .project-cntnt-grp .project-title{
+        top: 55%;
+        left: 8%;
+        transform: translateY(-50%);
+    
+        font: 100px "humane-bold";
+        line-height: 75%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .project-wrapper{
+        padding: 50px 0 100px;
+    }
+
+
+    .project-cntnt-grp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-type-date{
+        display: flex;
+        flex-direction: unset;
+    }
+
+    .project-img-box{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin: 10px 0;
+        padding-right: 0px;
+    }
+
+    .project-img-box img{
+        width: 100%;
+        height: auto;
+    }
+
+    .project-cntnt-grp .project-title{
+        position: relative;
+        left: 0;
+        transform: translateY(0);
+    
+        font: 100px "humane-bold";
+        line-height: 75%;
+        margin-top: 10px;
+        text-align: right;
+    }
+
+    .project-view-box{
+        justify-content: end;
+        width: 100%;
+        margin-left: 0px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-head{
+        font: 140px "humane-bold";
+        line-height: 90.7%;
+        color: var(--colorDark);
+    }
+    
+    .project-sec-head .sticker-img1{
+        width: 70px;
+        left: 0px;
+        top: 40%;
+    }
+    
+    .project-sec-head .sticker-img2{
+        width: 40px;
+        left: 160px;
+        bottom: 5%;
+    }
+
+
+
+
+    .project-type-date{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-cntnt-grp .project-title{
+        font: 90px "humane-medium";
+        line-height: 80%;
+
+        margin: 10px 0;
+    }
+
+    .project-timing .timing-year{
+        font-size: 14px;
+    }
+
+    .timing-miniLine{
+        width: 30px;
+        height: 1px;
+        background-color: var(--colorDark);
+        margin: 0 10px;
+    }
+}

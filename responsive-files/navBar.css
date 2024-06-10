@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) {
+    .header
+    {
+        padding: 10px 10px;
+        border: 0;
+        border-bottom: 1px solid var(--colorDark);
+    }
+
+    .nav-logo{
+        font: 500 22px "canopee";
+    }
+
+
+    .navContact-btn{
+        font: 700 12px var(--fontFamily);
+
+        padding: 6px;
+    }
+
+    .navlink-menu-btn{
+        font: 500 22px "canopee";
+    }
+
+    .navContact-btn .contact-btn{
+        padding: 4px 6px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navContact-btn{
+        display: none;
+    }
+}

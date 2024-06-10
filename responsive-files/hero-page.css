@@ -1,0 +1,124 @@
+@media screen and (max-width: 1200px) {
+
+    .hero-img-holder .hero-img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    .hero-img-holder .hero-img-content{
+        margin-left: 20px;
+        width: 374px;
+    }
+
+    .hero-img-content .hero-contnt-img{
+        position: absolute;
+        left: -10px;
+        top: -5px;
+    }
+
+    .hero-img-holder .hero-img{
+        width: 260px;
+    }
+
+    .hero-moving-text-holder{
+        margin-top: -80px;
+        transform: rotate(0);
+        z-index: 1;
+        transform: translateX(150%) translateY(-200px) scale(0.5);
+    }
+
+    
+    
+    
+    .hero-moving-text-holder .moving-text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .moving-text .text-grp{
+        width: calc(1280px * 4);
+        display: flex;
+        align-items: center;
+        mix-blend-mode: difference;
+        animation: textmoving 50s linear infinite;
+    }
+    
+    @keyframes textmoving {
+        0%{
+            transform: translateX(0%);
+        }
+        100%{
+            transform: translateX(calc(-1280px * 4));
+        }
+    }
+    
+    .text-grp .text{
+        width: 1280px;
+        
+        font: 700 160px "humane-bold";
+        color: var(--colorDark);
+        text-transform: capitalize;
+        mix-blend-mode: difference;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .hero-img-holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .hero-img-holder .hero-img{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .hero-img-holder .hero-img img{
+        width: 260px;
+        height: auto;
+    
+        filter: saturate(0%);
+        border-radius: 6px;
+    }
+
+
+
+    .hero-moving-text-holder{
+        margin-top: -50px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .hero-img-holder .hero-img-content{
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .hero-img-content .hero-contnt-img{
+        position: absolute;
+        left: -10px;
+        top: 0px;
+    }
+
+    .hero-contnt-img img{
+        width: 20px;
+        height: auto;
+    }
+
+    .hero-img-holder .hero-img-content p{
+        font: 600 14px var(--fontFamily);
+        margin-top: 4px;
+    }
+}
