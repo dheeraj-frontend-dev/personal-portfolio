@@ -293,8 +293,9 @@ function aboutMe_text() {
       trigger: '.about-info',
       scroller: '#main',
       start: 'top 70%',
-      end: 'top -20%',
+      end: 'top 20%',
       scrub: 2,
+      // markers: true,
     }
   })
 }

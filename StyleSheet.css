@@ -35,6 +35,20 @@
 
 
 @font-face {
+    font-family: "neue-bold";
+    src: url(assets/font/NeueMachina-Bold.ttf);
+}
+@font-face {
+    font-family: "neue-reg";
+    src: url(assets/font/NeueMachina-Regular.ttf);
+}
+@font-face {
+    font-family: "neue-lgt";
+    src: url(assets/font/NeueMachina-Light.ttf);
+}
+
+
+@font-face {
     font-family: "stretch";
     src: url(assets/font/StretchPro/StretchPro.otf);
 }
@@ -50,7 +64,7 @@ html, body{
 
 
 .page-center{
-    max-width: 1440px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 0 100px;
@@ -84,7 +98,7 @@ html, body{
 .main-container
 {
     position: relative;
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     background: var(--colorLight);
     color: var(--colorDark);
@@ -827,7 +841,7 @@ html, body{
 /* ----- About Section Code ------ */
 
 .about-sec-contain{
-    padding: 100px 0;
+    padding: 200px 0;
     /* border-radius: 50px 50px 0 0; */
 }
 
@@ -838,8 +852,9 @@ html, body{
 
 .about-content-contain .about-info{
     width: 100%;
-    font: 600 56px var(--fontFamily);
-    line-height: 60px;
+    font: 600 48px var(--fontFamily);
+    text-transform: uppercase;
+    line-height: 50px;
     letter-spacing: -2px;
     color: var(--colorDark);
     margin-top: 20px;
