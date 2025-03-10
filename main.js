@@ -231,7 +231,7 @@ function tableContent() {
         trigger: tablePoint,
         scroller: '#main',
         start: 'top 90%',
-        end: 'top 20%',
+        end: 'top 50%',
         scrub: 2,
       }
     })
